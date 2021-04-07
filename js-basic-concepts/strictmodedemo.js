@@ -5,8 +5,8 @@
 // }
 
 //printMessage(kkk);
-
-var message = "welcome to the world of javascript";
+"use strict"
+ message = "welcome to the world of javascript";
 (function (msg){
    console.log(msg);
 })(message);
