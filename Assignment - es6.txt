@@ -1,0 +1,18 @@
+
+
+
+1.create one js file
+2. Create one object constructor - //convert to class
+	a.create 4 functions -  addition - arrow function,subtraction - spread/rest,multiplication - arrow function, divison - default argument. //convert to arrow functions
+	b. template literals for showing the result // result -  sum of 10 and 20 is 30
+	b. use logical/comparison operator in case of division and subtraction.
+	c. take three attributes for operands and result
+3. Create one IIFE - display one message that calculator is working successfully. pass this message from global scope.
+4. call the methods .
+5. globally change the x and y
+obj.sum
+ obj.x = 
+ obj.y =
+ 5/0
+ 
+ 
