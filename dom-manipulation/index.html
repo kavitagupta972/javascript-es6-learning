@@ -1,15 +1,43 @@
-
 <html>
     <head>
         <title>
             Dom Manipulation
+            <style>
+                .middle-section-div {
+                    background-color: rgb(255, 136, 127);
+                    font-size: larger;
+                }
+
+                .redText {
+                    font-size: 20px;
+                    background-color: blueviolet;
+                }
+            </style>
         </title>
     </head>
     <body>
         <section class = "higher-section">
             <img id = "carImg" src="car.jpg" alt="its a car image" style = "width:200px;height:200px">
-            <p id = "redTextPara" class = "redText">This is the paragraph content which i am going to change</p>
+            <p id = "redTextPara" class = "redText" style = "background-color: cornflowerblue;">This is the paragraph content which i am going to change</p>
             <span id = "blueTextSpan" class = "blueText">This is span area . BOOM!!!!!</span>
         </section>
+        <section class = "middle-section">
+            <div >This is div inside middle section</div>
+        </section>
+        <script>
+            // const nextPara = document.createElement('p');
+            // const sect = document.querySelector('.middle-section');
+            // nextPara.textContent = "Paragraph inside middle section";
+            // console.log(sect);
+            // sect.appendChild(nextPara);
+            // const divSection = document.querySelector('div');
+            // console.log(divSection);
+            // sect.appendChild(divSection);
+             const spanArea = document.querySelector("#blueTextSpan");
+            // console.log(spanArea);
+            const divSection = document.querySelector('div'); 
+            divSection.setAttribute("id", "middle-section-div-id");
+            spanArea.setAttribute("class", "middle-section-div");
+        </script>
     </body>
 </html>
