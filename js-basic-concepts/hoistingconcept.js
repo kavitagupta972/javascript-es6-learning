@@ -5,7 +5,7 @@ console.log(a);
 
 printHello();
 function printHello(){
-    console.log("hello javascript");
+    console.log("hello reactjs");
 }
 
 printHello();

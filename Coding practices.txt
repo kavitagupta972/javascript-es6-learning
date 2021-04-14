@@ -1,0 +1,11 @@
+Best Coding practices
+1. Code Coverage
+2. Naming conventions
+3. Comments and documentation - easily readable, understandable, and maintainable
+4. Formatting and indentation of code should be proper and consistent
+5. breaking down of the code. - e.g. breaking down the functions
+6. Avoid nested conditions
+7. Organisation of the folder structure along with files
+8. Try to use some tools to check the coding practices. e.g SONAR
+9. Try to separate the logic and constants.
+10. Avoid hardcoding.
