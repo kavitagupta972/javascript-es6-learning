@@ -23,4 +23,4 @@ function emp(id, firstname, lastname, salary) {
 let emp1 = new emp("101", "Kavita", " Intellect", "1");
 let emp2 = new emp("102", "Aman ", " Intellect", "2");
 let emp3 = new emp("103", "Ankit", " Intellect", "3");
-console.log(emp3.getName);
+console.log(emp3.getName());
